@@ -1,0 +1,74 @@
+[
+  {
+    "img": "/dark/assets/imgs/works/stand/1.jpg",
+    "title": "Aevoe",
+    "subTitle": "Silal",
+    "link": "/dark/project1"
+  },
+  {
+    "img": "/dark/assets/imgs/works/stand/2.jpg",
+    "title": "Digital Design",
+    "subTitle": "Agthia",
+    "link": "/dark/project2"
+  },
+  {
+    "img": "/dark/assets/imgs/works/stand/3.jpg",
+    "title": "Aevoe",
+    "subTitle": "CompassSingapore",
+    "link": "/dark/project3"
+  },
+  {
+    "img": "/dark/assets/imgs/works/stand/4.jpg",
+    "title": "Aevoe",
+    "subTitle": "CorporateStationery",
+    "link": "/dark/project4"
+  },
+  {
+    "img": "/dark/assets/imgs/works/stand/5.jpg",
+    "title": "Aevoe",
+    "subTitle": "Flyers",
+    "link": "/dark/project5"
+  },
+  {
+    "img": "/dark/assets/imgs/works/stand/6.jpg",
+    "title": "Digital Design",
+    "subTitle": "Presentations&PitchDecks",
+    "link": "/dark/project6"
+  },
+  {
+    "img": "/dark/assets/imgs/works/stand/7.jpg",
+    "title": "Aevoe",
+    "subTitle": "MarketingCampaigns",
+    "link": "/dark/project1"
+  },
+  {
+    "img": "/dark/assets/imgs/works/stand/8.jpg",
+    "title": "Aevoe",
+    "subTitle": "PrintAds",
+    "link": "/dark/project2"
+  },
+  {
+    "img": "/dark/assets/imgs/works/stand/9.jpg",
+    "title": "Aevoe",
+    "subTitle": "OOH",
+    "link": "/dark/project4"
+  },
+  {
+    "img": "/dark/assets/imgs/works/stand/9.jpg",
+    "title": "Aevoe",
+    "subTitle": "EnvironmentalGraphics",
+    "link": "/dark/project4"
+  },
+  {
+    "img": "/dark/assets/imgs/works/stand/9.jpg",
+    "title": "Aevoe",
+    "subTitle": "EventsBranding",
+    "link": "/dark/project4"
+  }, {
+    "img": "/dark/assets/imgs/works/stand/9.jpg",
+    "title": "Aevoe",
+    "subTitle": "EmailersNewsletters",
+    "link": "/dark/project4"
+  }
+
+]
