@@ -14,14 +14,15 @@
         <Testimonials />
         <Team />
         <Clients />
-        <Blog />
+        <!-- <Blog /> -->
       </main>
       <Footer />
     </div>
   </div>
 </template>
 <script setup>
-import Footer from '@/components/dark/blog-list/Footer';
+// import Footer from '@/components/dark/blog-list/Footer';
+import Footer from '@/components/dark/home-main/Footer';
 import Header from '@/components/dark/about/Header';
 import Lines from '@/components/dark/common/Lines';
 import ProgressScroll from '@/components/dark/common/ProgressScroll';
@@ -31,10 +32,10 @@ import Navbar from '@/components/dark/creative-agency/Navbar';
 import Intro from '@/components/dark/about/Intro';
 import Marquee from '@/components/dark/about/Marquee';
 import Intro2 from '@/components/dark/about/Intro2';
-import Testimonials from '@/components/dark/about/Testimonials';
+import Testimonials from '@/components/dark/home-main/Testimonials';
 import Team from '@/components/dark/about/Team';
 import Blog from '@/components/dark/about/Blog';
-import Clients from '@/components/dark/home-main/Clients-About-Us.vue';
+import Clients from '@/components/dark/home-main/Clients.vue';
 import { onMounted } from 'vue';
 
 useHead({

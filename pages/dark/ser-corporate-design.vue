@@ -26,7 +26,8 @@ import { onMounted } from 'vue';
 import Navbar from '@/components/dark/creative-agency/Navbar.vue';
 import Header from '@/components/dark/portfolio-standard/corporate-header.vue';
 import Portfolio from '@/components/dark/portfolio-gallery/corporate-design-portfolio.vue';
-import Footer from '@/components/dark/blog-details/Footer';
+// import Footer from '@/components/dark/blog-details/Footer';
+import Footer from '@/components/dark/home-main/Footer';
 import HeaderImage from '@/components/dark/showcase-carousel/Header';
 import TitleParagraph from '@/components/dark/services-custom/TitlePara.vue'
 import Title from '@/components/dark/services-custom/Title.vue'

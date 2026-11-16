@@ -15,7 +15,8 @@
   </div>
 </template>
 <script setup>
-import Footer from '@/components/dark/blog-details/Footer';
+// import Footer from '@/components/dark/blog-details/Footer';
+import Footer from '@/components/dark/home-main/Footer';
 import Lines from '@/components/dark/common/Lines';
 import ProgressScroll from '@/components/dark/common/ProgressScroll';
 import Cursor from '@/components/dark/common/cusor';

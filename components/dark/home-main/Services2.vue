@@ -33,7 +33,7 @@
           data-swiper="container"
           v-bind="swiperOptions"
         >
-          <SwiperSlide v-for="(item, i) in data" :key="i">
+          <SwiperSlide v-for="item in data" :key="item.link">
             <div class="item-box radius-15">
               <div class="icon mb-40 opacity-5">
                 <img :src="item.img" alt="" />
@@ -63,7 +63,7 @@ import { Navigation, Pagination } from 'swiper';
 const swiperOptions = {
   modules: [Navigation],
   speed: 600,
-  loop: true,
+  loop: false,
   initialSlide: 0,
   navigation: {
     nextEl: '.swiper-arrow-control .swiper-button-next',
@@ -72,21 +72,21 @@ const swiperOptions = {
   breakpoints: {
     // when window width is >= 640px
     640: {
-      loop: true,
+      loop: false,
       slidesPerView: 1,
       spaceBetween: 20,
       centeredSlides: false,
     },
     // when window width is >= 768px
     768: {
-      loop: true,
+      loop: false,
       slidesPerView: 2,
       spaceBetween: 50,
       centeredSlides: false,
     },
     // when window width is >= 1200px
     1000: {
-      loop: true,
+      loop: false,
       slidesPerView: 3,
       spaceBetween: 50,
       centeredSlides: false,

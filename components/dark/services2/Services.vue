@@ -66,7 +66,7 @@
               <img src="/dark/assets/imgs/works/1/1.jpg" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="/dark/page-services-details">
+              <a href="/dark/ser-corporate-design">
                 View Details <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>
@@ -85,7 +85,7 @@
               <img src="/dark/assets/imgs/works/1/2.jpg" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="/dark/page-services-details">
+              <a href="/dark/ser-branding">
                 View Details <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>
@@ -104,7 +104,7 @@
               <img src="/dark/assets/imgs/works/1/3.jpg" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="/dark/page-services-details">
+              <a href="/dark/ser-content-creation">
                 View Details <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>
@@ -123,7 +123,7 @@
               <img src="/dark/assets/imgs/works/1/4.jpg" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="/dark/page-services-details">
+              <a href="/dark/ser-product-packaging">
                 View Details <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>
@@ -138,7 +138,7 @@
               <img src="/dark/assets/imgs/works/1/5.jpg" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="/dark/page-services-details">
+              <a href="/dark/ser-annual-reports">
                 View Details <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>
@@ -156,7 +156,7 @@
               <img src="/dark/assets/imgs/works/1/5.jpg" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="/dark/page-services-details">
+              <a href="/dark/ser-social-media">
                 View Details <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>
@@ -171,7 +171,7 @@
               <img src="/dark/assets/imgs/works/1/5.jpg" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="/dark/page-services-details">
+              <a href="/dark/ser-web-design">
                 View Details <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>

@@ -8,8 +8,8 @@
           <span class="padding-rl-20">|</span>
           <span class="main-color">Services</span>
         </div>
-          <p class="pt-50" style="padding-left: 15%; padding-right: 15%;">Velorinax quentari lumessa prandor vixelate, torvani lexum prastico velmirex antravi. Solentra vaxion delmora quintexa reluvion astryxen, porvalis enturo maxenti dravique. Lunarex polvinta cerulex montra velsari quindexa florentis, zenvora ultimar dexion preluxa novaris.
-       </p>
+          <p class="pt-50" style="padding-left: 15%; padding-right: 15%;">
+            We design distinctive and functional packaging that reflects each brand's identity, enhances product appeal, and creates a memorable impression through thoughtful design and creative execution. </p>
       </div>
     </div>
   </header>

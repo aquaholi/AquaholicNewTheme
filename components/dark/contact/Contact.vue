@@ -34,22 +34,32 @@
             </div>
             <ul class="rest social-text d-flex mt-60">
               <li class="mr-30">
-                <a href="#0" class="hover-this">
+                <a
+                  href="https://www.facebook.com/aqcreativesol/"
+                  class="hover-this"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <span class="hover-anim">Facebook</span>
                 </a>
               </li>
               <li class="mr-30">
-                <a href="#0" class="hover-this">
-                  <span class="hover-anim">Twitter</span>
-                </a>
-              </li>
-              <li class="mr-30">
-                <a href="#0" class="hover-this">
+                <a
+                  href="https://www.linkedin.com/company/aquaholic-creative-solutions/posts/?feedView=all"
+                  class="hover-this"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <span class="hover-anim">LinkedIn</span>
                 </a>
               </li>
               <li>
-                <a href="#0" class="hover-this">
+                <a
+                  href="https://www.instagram.com/aqcreativesol/?hl=en"
+                  class="hover-this"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <span class="hover-anim">Instagram</span>
                 </a>
               </li>

@@ -10,16 +10,16 @@
         <Header />
         <Services />
         <MainFeat />
-        <Testimonials />
-        <Brands />
-        <Blog />
+        <!-- <Testimonials /> -->
+        <!-- <Brands />
+        <Blog /> -->
       </main>
       <Footer />
     </div>
   </div>
 </template>
 <script setup>
-import Footer from '@/components/dark/modern-agency/Footer';
+import Footer from '@/components/dark/home-main/Footer';
 import Lines from '@/components/dark/common/Lines';
 import ProgressScroll from '@/components/dark/common/ProgressScroll';
 import Cursor from '@/components/dark/common/cusor';

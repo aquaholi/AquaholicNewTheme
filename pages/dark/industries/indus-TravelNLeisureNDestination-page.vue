@@ -24,7 +24,8 @@ import Navbar from '@/components/dark/creative-agency/Navbar.vue';
 // import IndustryOverview from '@/components/dark/Industry-wise/industries-overview.vue'
 import Header from '@/components/dark/Industry-wise/TravelNLeisureNDestination/indus-TravelNLeisureNDestination-header.vue'
 import Portfolio from '@/components/dark/Industry-wise/TravelNLeisureNDestination/indus-TravelNLeisureNDestination.vue';
-import Footer from '@/components/dark/blog-details/Footer';
+// import Footer from '@/components/dark/blog-details/Footer';
+import Footer from '@/components/dark/home-main/Footer';
 
 useHead({
   link: [

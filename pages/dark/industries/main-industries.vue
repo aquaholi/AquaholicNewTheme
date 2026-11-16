@@ -23,7 +23,8 @@ import Navbar from '@/components/dark/creative-agency/Navbar.vue';
 import IndustryOverview from '@/components/dark/Industry-wise/industries-overview.vue'
 // import Header from '@/components/dark/portfolio-outline/ser-annual-reports-header.vue';
 // import Portfolio from '@/components/dark/portfolio-outline/ser-annual-reports.vue';
-import Footer from '@/components/dark/blog-details/Footer';
+// import Footer from '@/components/dark/blog-details/Footer';
+import Footer from '@/components/dark/home-main/Footer';
 
 useHead({
   link: [

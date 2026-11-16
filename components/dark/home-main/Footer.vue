@@ -8,7 +8,7 @@
       <div class="cal-action pb-50 mb-80 bord-thin-bottom">
         <h2 class="fz-120 line-height-1 d-rotate wow">
           <span class="rotate-text">
-            <a href="/dark/page-contact3">
+            <a href="/dark/page-contact">
               Let’s Contact
               <span class="ml-30 fz-70 ti-arrow-top-right"></span>
             </a>
@@ -26,7 +26,7 @@
             <div class="mb-40">
               <h6 class="sub-title mb-30">Address</h6>
               <h5 class="opacity-8">
-               Sheikha Jameela Tower - Office M03 - Abu Dhabi - UAE
+                Sheikha Jameela Tower - Office M03 - Abu Dhabi - UAE
               </h5>
             </div>
 
@@ -81,38 +81,24 @@
       <div class="d-flex align-items-center pt-30 pb-30 mt-80 bord-thin-top">
         <div>
           <ul class="rest d-flex align-items-center">
-            <li class="hover-this cursor-pointer">
-              <a href="#0" class="hover-anim">
+            <!-- ONLY CHANGE: `hover-this` removed from these three <li> -->
+            <li class="cursor-pointer">
+              <a href="https://www.facebook.com/aqcreativesol/" class="hover-anim" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
-            <li class="hover-this cursor-pointer ml-30">
-              <a href="#0" class="hover-anim">
-                <i class="fab fa-dribbble"></i>
-              </a>
-            </li>
-            <li class="hover-this cursor-pointer ml-30">
-              <a href="#0" class="hover-anim">
+            <li class="cursor-pointer ml-30">
+              <a href="https://www.linkedin.com/company/aquaholic-creative-solutions/posts/?feedView=all" class="hover-anim" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </li>
-            <li class="hover-this cursor-pointer ml-30">
-              <a href="#0" class="hover-anim">
+            <li class="cursor-pointer ml-30">
+              <a href="https://www.instagram.com/aqcreativesol/?hl=en" class="hover-anim" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-instagram"></i>
               </a>
             </li>
           </ul>
         </div>
-        <!-- <div class="ml-auto">
-          <p class="fz-14">
-            © 2024 InFolio is Proudly Powered by
-            <span class="underline main-color">
-              <a href="https://themeforest.net/user/UiCamp" target="_blank">
-                UiCamp
-              </a>
-            </span>
-          </p>
-        </div> -->
       </div>
     </div>
   </footer>

@@ -46,12 +46,12 @@
                     <div
                       class="info d-flex align-items-center pt-40 mt-40 bord-thin-top"
                     >
-                      <div>
+                      <!-- <div>
                         <div class="fit-img circle">
                           <img :src="item.img" alt="" />
                         </div>
-                      </div>
-                      <div class="ml-20">
+                      </div> -->
+                      <div class="ml-20 pb-15">
                         <h5>{{ item.name }}</h5>
                         <span class="sub-title main-color">
                           {{ item.subName }}

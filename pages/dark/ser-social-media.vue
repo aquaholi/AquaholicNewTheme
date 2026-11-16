@@ -23,7 +23,8 @@ import { onMounted } from 'vue';
 import Navbar from '@/components/dark/creative-agency/Navbar.vue';
 import Header from '@/components/dark/portfolio-sticky/ser-socail-media-header.vue';
 import Portfolio from '@/components/dark/portfolio-sticky/ser-social-media-portfolio.vue';
-import Footer from '@/components/dark/blog-details/Footer';
+// import Footer from '@/components/dark/blog-details/Footer';
+import Footer from '@/components/dark/home-main/Footer';
 
 useHead({
   link: [

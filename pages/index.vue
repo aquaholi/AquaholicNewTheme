@@ -16,7 +16,7 @@
         <Portfolio />
         <Testimonials />
         <!-- <Team /> -->
-        <Blog />
+        <!-- <Blog /> -->
         <Clients />
       </main>
       <Footer />

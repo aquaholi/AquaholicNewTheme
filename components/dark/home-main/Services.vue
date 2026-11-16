@@ -4,7 +4,7 @@
       <div class="row justify-content-between">
         <div class="col-lg-4 offset-lg-1 valign">
           <div class="img md-mb80">
-            <div class="rotate-butn-vid">
+            <!-- <div class="rotate-butn-vid">
               <a
                 href="https://youtu.be/AzwC6umvd1s"
                 class="vid d-flex align-items-center"
@@ -14,7 +14,7 @@
                 </div>
                 <span class="sub-title ml-15">Watch Intro</span>
               </a>
-            </div>
+            </div> -->
             <img
               src="/dark/assets/imgs/intro/04.jpg"
               alt=""
