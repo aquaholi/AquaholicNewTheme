@@ -13,7 +13,7 @@
               </h5>
               <p>
                 <a href="/dark/portfolio-outline">
-                  {{ item.subTitle.split(' ')[0] }}
+                  {{ item.subTitle }}
                 </a>
               </p>
             </div>
@@ -24,5 +24,5 @@
   </section>
 </template>
 <script setup>
-import data from '@/data/portfolios/workstand';
+import data from '@/data/portfolios/webdesign';
 </script>
