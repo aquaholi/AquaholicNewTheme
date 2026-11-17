@@ -7,9 +7,8 @@
           <div class="filter text-center">
               <span class="text" ><b>Filter By :</b></span>
             <span data-filter="*" class="active"> Show All </span>
-            <span data-filter=".CorporateStationery">Sale Collateral</span>
-            <span data-filter=".Flyers">Flyers</span>
-            <span data-filter=".Presentations&PitchDecks">Presentations</span>
+            <span data-filter=".Brand-Collaterals">Collateral</span>
+            <span data-filter=".PresentationsPitchDecks">Presentations</span>
             <span data-filter=".MarketingCampaigns">Campaigns</span>
             <span data-filter=".PrintAds">Print Ads</span>
             <span data-filter=".OOH">Signage</span>
@@ -24,7 +23,7 @@
         <div
           v-for="(item, i) in data"
           :key="i"
-          :class="['col-lg-4', 'col-md-6', 'items', item.subTitle]"
+          :class="['col-lg-4', 'col-md-6', 'items', categoryClass(item.subTitle)]"
         >
           <div class="item mt-40">
             <div class="img">
@@ -35,7 +34,7 @@
                     <a :href="item.link">{{ item.title }}</a>
                   </h5>
                   <p>
-                    <a :href="item.link">{{ item.subTitle.split(' ')[0] }}</a>
+                    <a :href="item.link">{{ item.subTitle }}</a>
                   </p>
                 </div>
                 <div class="ml-auto">
@@ -54,6 +53,9 @@
 <script setup>
 import data from '@/data/portfolios/corproate-design.json';
 import initIsotope from '@/common/initIsotope';
+
+const categoryClass = (value) => value.replace(/[^a-zA-Z0-9_-]/g, '');
+
 onMounted(() => {
   initIsotope('gallery');
 });
