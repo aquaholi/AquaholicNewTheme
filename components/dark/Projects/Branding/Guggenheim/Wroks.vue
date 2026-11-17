@@ -1,58 +1,142 @@
 <template>
-  <div class="works guggenheim-works thecontainer ontop">
-    <div v-for="(item, i) in data" :key="i" class="panel">
-      <div class="item">
-        <div class="img">
-          <img :src="item" alt="" />
-        </div>
+  <div ref="viewport" class="works project-gallery-viewport thecontainer ontop">
+    <div ref="track" class="project-gallery-track">
+      <div v-for="(image, index) in images" :key="image" class="panel project-gallery-panel">
+        <img :src="image" :alt="`${projectTitle} ${index + 1}`" class="project-gallery-image" />
       </div>
     </div>
   </div>
-  <!-- <Script src="/dark/assets/js/hscroll.js"></Script> -->
 </template>
-<script setup>
-import data from '@/data/portfolios/brand-guggenheim.json';
-const handleResize = () => {
-  const allTriggers = ScrollTrigger.getAll();
-  if (
-    (window.innerWidth < 991 && allTriggers.length) ||
-    (window.innerWidth > 991 && !allTriggers.length)
-  ) {
-    window.location.reload();
+<script setup lang="ts">
+import { onMounted, onUnmounted, ref } from 'vue';
+
+defineProps<{
+  images: string[];
+  projectTitle: string;
+}>();
+
+const viewport = ref<HTMLElement>();
+const track = ref<HTMLElement>();
+let galleryTween: { kill: () => void; scrollTrigger?: { kill: () => void } } | undefined;
+let resizeTimer: ReturnType<typeof setTimeout> | undefined;
+
+const initializeGallery = () => {
+  galleryTween?.scrollTrigger?.kill();
+  galleryTween?.kill();
+  galleryTween = undefined;
+
+  const galleryTrack = track.value;
+  const galleryViewport = viewport.value;
+  if (!galleryTrack || !galleryViewport || window.innerWidth <= 991) {
+    return;
   }
 
-  allTriggers.forEach((trigger) => {
-    trigger.update();
+  const distance = galleryTrack.scrollWidth - galleryViewport.clientWidth;
+  if (distance <= 0) {
+    return;
+  }
+
+  galleryTween = gsap.to(galleryTrack, {
+    x: () => -(galleryTrack.scrollWidth - galleryViewport.clientWidth),
+    ease: 'none',
+    scrollTrigger: {
+      trigger: galleryViewport,
+      pin: true,
+      scrub: 1,
+      anticipatePin: 1,
+      invalidateOnRefresh: true,
+      end: () => `+=${Math.max(0, galleryTrack.scrollWidth - galleryViewport.clientWidth)}`,
+    },
   });
+  ScrollTrigger.refresh();
 };
 
-// Register the ScrollTrigger plugin and animate on component mount
-onMounted(() => {
-  if (window.innerWidth > 991) {
-    let sections = gsap.utils.toArray('.panel');
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.to(sections, {
-      xPercent: -100 * (sections.length - 1),
-      ease: 'none',
-      scrollTrigger: {
-        trigger: '.thecontainer',
-        pin: true,
-        scrub: 1,
-        end: () => '+=' + document.querySelector('.thecontainer')?.offsetWidth,
-      },
-    });
+const handleResize = () => {
+  if (resizeTimer) {
+    clearTimeout(resizeTimer);
   }
+  resizeTimer = setTimeout(initializeGallery, 150);
+};
+
+onMounted(() => {
+  gsap.registerPlugin(ScrollTrigger);
+  initializeGallery();
   window.addEventListener('resize', handleResize);
 });
 
-// Remove the resize event listener on component unmount
 onUnmounted(() => {
   window.removeEventListener('resize', handleResize);
+  if (resizeTimer) {
+    clearTimeout(resizeTimer);
+  }
+  galleryTween?.scrollTrigger?.kill();
+  galleryTween?.kill();
 });
 </script>
 
 <style scoped>
-.guggenheim-works .panel .item .img {
-  height: auto;
+.project-gallery-viewport.works.thecontainer {
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  padding: 0;
+  overflow: hidden;
+}
+
+.project-gallery-track {
+  display: flex;
+  flex-wrap: nowrap;
+  width: max-content;
+}
+
+.project-gallery-track > .project-gallery-panel {
+  display: flex;
+  flex: 0 0 100vw;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #1a1a1a;
+}
+
+.project-gallery-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media (max-width: 991px) {
+  .project-gallery-viewport.works.thecontainer {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    padding: 40px 0;
+    overflow: visible;
+  }
+
+  .project-gallery-track {
+    display: block;
+    width: 100%;
+  }
+
+  .project-gallery-track > .project-gallery-panel {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0 !important;
+  }
+
+  .project-gallery-image {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: contain;
+  }
 }
 </style>

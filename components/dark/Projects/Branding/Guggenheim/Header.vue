@@ -42,17 +42,9 @@
         </div>
       </div>
     </div>
-    <div
+    <!-- <div
       class="bg-img mt-100"
       data-background="/dark/assets/imgs/works/Branding/guggenheim/cover-image.png"
-    ></div>
+    ></div> -->
   </header>
 </template>
-
-<script setup>
-import loadBackgroudImages from '@/common/loadBackgroudImages';
-
-onMounted(() => {
-  loadBackgroudImages();
-});
-</script>

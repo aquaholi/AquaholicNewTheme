@@ -1,4 +1,5 @@
 import { fileURLToPath } from 'node:url';
+import portfolioProjects from './data/portfolios/corproate-design.json';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
@@ -7,9 +8,14 @@ export default defineNuxtConfig({
     shim: false,
   },
   nitro: {
-     prerender: {
-    failOnError: false
-  }
+    prerender: {
+      failOnError: false,
+      routes: [
+        '/dark/ser-corporate-design',
+        '/dark/Projects/Branding/Guggenheim',
+        ...portfolioProjects.map((project) => project.link),
+      ],
+    },
   },
   alias: {
     '@': fileURLToPath(new URL('./', import.meta.url)),

@@ -1,0 +1,601 @@
+const data = [
+  {
+    img: "/dark/assets/imgs/works/projects/branding-guggenheim/Thumbnail.jpg",
+    title: "Guggenheim",
+    subTitle: "Brand-Collaterals",
+    link: "/dark/Projects/Branding/Guggenheim",
+    projectTitle: "Guggenheim",
+    images: [
+      "/dark/assets/imgs/works/Branding/guggenheim/1%20.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/2.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/3.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/4.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/5.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/6.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/7.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/8.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/9.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/10.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/11.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/12.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/13.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/14.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/15.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/16.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/17.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/18.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/19.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/20.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/21.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/22.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/23.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/24.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/25.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/26.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/27.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/28.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/29.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/30.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/31.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/32.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/33.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/34.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/35.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/36.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/37.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/38.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/39.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/40.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/41.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/42.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/43.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/44.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/45.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/46.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/47.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/48.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/49.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/50.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/51.jpg",
+      "/dark/assets/imgs/works/Branding/guggenheim/52.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/Thumbnail.jpg",
+    title: "ADNH",
+    subTitle: "Brochure",
+    link: "/dark/Projects/brochure/adnh/90-degree-booklet",
+    projectTitle: "90 Degree Booklet",
+    images: [
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/1.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/2.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/3.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/4.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/5.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/6.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/7.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/8.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/9.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/10.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/11.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/12.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/13.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/14.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/15.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/16.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/17.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/18.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/19.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/20.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/21.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/22.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/23.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/24.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/25.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/26.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/27.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/28.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/29.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/30.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/31.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/90-Degree-booklet/32.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/brochure/adnh/best-buy-guide/Thumbnail.jpg",
+    title: "ADNH",
+    subTitle: "Brochure",
+    link: "/dark/Projects/brochure/adnh/best-buy-guide",
+    projectTitle: "Best Buy Guide",
+    images: [
+      "/dark/assets/imgs/works/projects/brochure/adnh/best-buy-guide/1.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/best-buy-guide/2.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/best-buy-guide/3.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/best-buy-guide/4.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/best-buy-guide/5.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adnh/best-buy-guide/6.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/brochure/adscc/family-medicine/Thumbnail.jpg",
+    title: "ADSCC",
+    subTitle: "Brochure",
+    link: "/dark/Projects/brochure/adscc/family-medicine",
+    projectTitle: "Family Medicine",
+    images: [
+      "/dark/assets/imgs/works/projects/brochure/adscc/family-medicine/1.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adscc/family-medicine/2.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/brochure/adscc/urgent-care/Thumbnail.jpg",
+    title: "ADSCC",
+    subTitle: "Brochure",
+    link: "/dark/Projects/brochure/adscc/urgent-care",
+    projectTitle: "Urgent Care",
+    images: [
+      "/dark/assets/imgs/works/projects/brochure/adscc/urgent-care/1.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adscc/urgent-care/2.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/brochure/adscc/women-health/Thumbnail.jpg",
+    title: "ADSCC",
+    subTitle: "Brochure",
+    link: "/dark/Projects/brochure/adscc/women-health",
+    projectTitle: "Women Health",
+    images: [
+      "/dark/assets/imgs/works/projects/brochure/adscc/women-health/1.jpg",
+      "/dark/assets/imgs/works/projects/brochure/adscc/women-health/2.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/Thumbnail.jpg",
+    title: "RAKBANK",
+    subTitle: "Brochure",
+    link: "/dark/Projects/brochure/rakbank/business-brochure",
+    projectTitle: "Business Brochure",
+    images: [
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/1.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/2.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/3.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/4.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/5.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/6.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/7.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/8.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/9.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/10.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/11.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/12.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/13.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/14.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/15.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/16.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/17.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/18.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/19.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/20.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/business-brochure/21.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/Thumbnail.jpg",
+    title: "RAKBANK",
+    subTitle: "Brochure",
+    link: "/dark/Projects/brochure/rakbank/corporate-brochure",
+    projectTitle: "Corporate Brochure",
+    images: [
+      "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/1.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/2.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/3.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/4.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/5.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/6.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/7.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/8.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/9.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/10.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/11.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/12.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/13.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/14.jpg",
+      "/dark/assets/imgs/works/projects/brochure/rakbank/corporate-brochure/15.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/brochure/silal/storyboard/Thumbnail.jpg",
+    title: "Silal",
+    subTitle: "Brochure",
+    link: "/dark/Projects/brochure/silal/storyboard",
+    projectTitle: "Storyboard",
+    images: [
+      "/dark/assets/imgs/works/projects/brochure/silal/storyboard/1.jpg",
+      "/dark/assets/imgs/works/projects/brochure/silal/storyboard/2.jpg",
+      "/dark/assets/imgs/works/projects/brochure/silal/storyboard/3.jpg",
+      "/dark/assets/imgs/works/projects/brochure/silal/storyboard/4.jpg",
+      "/dark/assets/imgs/works/projects/brochure/silal/storyboard/5.jpg",
+      "/dark/assets/imgs/works/projects/brochure/silal/storyboard/6.jpg",
+      "/dark/assets/imgs/works/projects/brochure/silal/storyboard/7.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/campaigns/48xlab/Thumbnail.jpg",
+    title: "48xLab",
+    subTitle: "Campaigns",
+    link: "/dark/Projects/campaigns/48xlab",
+    projectTitle: "48xLab",
+    images: [
+      "/dark/assets/imgs/works/projects/campaigns/48xlab/Carousel_1.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/48xlab/Carousel_2.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/48xlab/Carousel_3.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/48xlab/Carousel_4.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/48xlab/Carousel_5.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/48xlab/Carousel_6.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/48xlab/Static_1.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/48xlab/Static_2.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/48xlab/Static_3.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/48xlab/Static_4.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/48xlab/Static_5.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/campaigns/adnh/reharvest/Thumbnail.jpg",
+    title: "ADNH",
+    subTitle: "Campaigns",
+    link: "/dark/Projects/campaigns/adnh/reharvest",
+    projectTitle: "Reharvest",
+    images: [
+      "/dark/assets/imgs/works/projects/campaigns/adnh/reharvest/1.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/adnh/reharvest/2.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/adnh/reharvest/3.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/adnh/reharvest/4.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/campaigns/adnh/world-cup-26/Thumbnail.jpg",
+    title: "ADNH",
+    subTitle: "Campaigns",
+    link: "/dark/Projects/campaigns/adnh/world-cup-26",
+    projectTitle: "World Cup 26",
+    images: [
+      "/dark/assets/imgs/works/projects/campaigns/adnh/world-cup-26/1.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/adnh/world-cup-26/2.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/adnh/world-cup-26/3.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/adnh/world-cup-26/4.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/adnh/world-cup-26/5.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/adnh/world-cup-26/6.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/adnh/world-cup-26/7.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/adnh/world-cup-26/8.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/adnh/world-cup-26/9.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/adnh/world-cup-26/10.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/adnh/world-cup-26/11.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/campaigns/silal/Thumbnail.jpg",
+    title: "Silal",
+    subTitle: "Campaigns",
+    link: "/dark/Projects/campaigns/silal",
+    projectTitle: "Silal",
+    images: [
+      "/dark/assets/imgs/works/projects/campaigns/silal/1.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/silal/2.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/silal/3.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/silal/4.jpg",
+      "/dark/assets/imgs/works/projects/campaigns/silal/5.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/emailer/adnh/Thumbnail.jpg",
+    title: "ADNH",
+    subTitle: "Emailer",
+    link: "/dark/Projects/emailer/adnh",
+    projectTitle: "ADNH",
+    images: [
+      "/dark/assets/imgs/works/projects/emailer/adnh/1.jpg",
+      "/dark/assets/imgs/works/projects/emailer/adnh/2.jpg",
+      "/dark/assets/imgs/works/projects/emailer/adnh/3.jpg",
+      "/dark/assets/imgs/works/projects/emailer/adnh/4.jpg",
+      "/dark/assets/imgs/works/projects/emailer/adnh/5.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/emailer/adscc/Thumbnail.jpg",
+    title: "ADSCC",
+    subTitle: "Emailer",
+    link: "/dark/Projects/emailer/adscc",
+    projectTitle: "ADSCC",
+    images: [
+      "/dark/assets/imgs/works/projects/emailer/adscc/1.jpg",
+      "/dark/assets/imgs/works/projects/emailer/adscc/2.jpg",
+      "/dark/assets/imgs/works/projects/emailer/adscc/3.jpg",
+      "/dark/assets/imgs/works/projects/emailer/adscc/4.jpg",
+      "/dark/assets/imgs/works/projects/emailer/adscc/5.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/emailer/silal/Thumbnail.jpg",
+    title: "Silal",
+    subTitle: "Emailer",
+    link: "/dark/Projects/emailer/silal",
+    projectTitle: "Silal",
+    images: [
+      "/dark/assets/imgs/works/projects/emailer/silal/1%20(1).jpg",
+      "/dark/assets/imgs/works/projects/emailer/silal/1.jpg",
+      "/dark/assets/imgs/works/projects/emailer/silal/2.jpg",
+      "/dark/assets/imgs/works/projects/emailer/silal/4.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/posters/48xlab/injection/Thumbnail.jpg",
+    title: "48xLab",
+    subTitle: "Posters",
+    link: "/dark/Projects/posters/48xlab/injection",
+    projectTitle: "Injection",
+    images: [
+      "/dark/assets/imgs/works/projects/posters/48xlab/injection/1.jpg",
+      "/dark/assets/imgs/works/projects/posters/48xlab/injection/2.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/posters/adnh/food-nation/Thumbnail.jpg",
+    title: "ADNH",
+    subTitle: "Posters",
+    link: "/dark/Projects/posters/adnh/food-nation",
+    projectTitle: "Food Nation",
+    images: [
+      "/dark/assets/imgs/works/projects/posters/adnh/food-nation/1.jpg",
+      "/dark/assets/imgs/works/projects/posters/adnh/food-nation/2.jpg",
+      "/dark/assets/imgs/works/projects/posters/adnh/food-nation/3.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/posters/adnh/healthy-lunch-box/Thumbnail%20(1).jpg",
+    title: "ADNH",
+    subTitle: "Posters",
+    link: "/dark/Projects/posters/adnh/healthy-lunch-box",
+    projectTitle: "Healthy Lunch Box",
+    images: [
+      "/dark/assets/imgs/works/projects/posters/adnh/healthy-lunch-box/1.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/posters/adscc/screen/Thumbnail.jpg",
+    title: "ADSCC",
+    subTitle: "Posters",
+    link: "/dark/Projects/posters/adscc/screen",
+    projectTitle: "Screen",
+    images: [
+      "/dark/assets/imgs/works/projects/posters/adscc/screen/1.jpg",
+      "/dark/assets/imgs/works/projects/posters/adscc/screen/2.jpg",
+      "/dark/assets/imgs/works/projects/posters/adscc/screen/3.jpg",
+      "/dark/assets/imgs/works/projects/posters/adscc/screen/4.jpg",
+      "/dark/assets/imgs/works/projects/posters/adscc/screen/5.jpg",
+      "/dark/assets/imgs/works/projects/posters/adscc/screen/6.jpg",
+      "/dark/assets/imgs/works/projects/posters/adscc/screen/7.jpg",
+      "/dark/assets/imgs/works/projects/posters/adscc/screen/8.jpg",
+      "/dark/assets/imgs/works/projects/posters/adscc/screen/9.jpg",
+      "/dark/assets/imgs/works/projects/posters/adscc/screen/10.jpg",
+      "/dark/assets/imgs/works/projects/posters/adscc/screen/11.jpg",
+      "/dark/assets/imgs/works/projects/posters/adscc/screen/12.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/posters/agthia/be-the-leader/Thumbnail%20(1).jpg",
+    title: "Agthia",
+    subTitle: "Posters",
+    link: "/dark/Projects/posters/agthia/be-the-leader",
+    projectTitle: "Be The Leader",
+    images: [
+      "/dark/assets/imgs/works/projects/posters/agthia/be-the-leader/1.jpg",
+      "/dark/assets/imgs/works/projects/posters/agthia/be-the-leader/2.jpg",
+      "/dark/assets/imgs/works/projects/posters/agthia/be-the-leader/3.jpg",
+      "/dark/assets/imgs/works/projects/posters/agthia/be-the-leader/4.jpg",
+      "/dark/assets/imgs/works/projects/posters/agthia/be-the-leader/5.jpg",
+      "/dark/assets/imgs/works/projects/posters/agthia/be-the-leader/6.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/posters/compass-singapore/eurestNcompass/Thumbnail.jpg",
+    title: "Compass Singapore",
+    subTitle: "Posters",
+    link: "/dark/Projects/posters/compass-singapore/eurestncompass",
+    projectTitle: "EurestNcompass",
+    images: [
+      "/dark/assets/imgs/works/projects/posters/compass-singapore/eurestNcompass/1.jpg",
+      "/dark/assets/imgs/works/projects/posters/compass-singapore/eurestNcompass/2.jpg",
+      "/dark/assets/imgs/works/projects/posters/compass-singapore/eurestNcompass/3.jpg",
+      "/dark/assets/imgs/works/projects/posters/compass-singapore/eurestNcompass/4.jpg",
+      "/dark/assets/imgs/works/projects/posters/compass-singapore/eurestNcompass/5.jpg",
+      "/dark/assets/imgs/works/projects/posters/compass-singapore/eurestNcompass/6.jpg",
+      "/dark/assets/imgs/works/projects/posters/compass-singapore/eurestNcompass/7.jpg",
+      "/dark/assets/imgs/works/projects/posters/compass-singapore/eurestNcompass/8.jpg",
+      "/dark/assets/imgs/works/projects/posters/compass-singapore/eurestNcompass/9.jpg",
+      "/dark/assets/imgs/works/projects/posters/compass-singapore/eurestNcompass/10.jpg",
+      "/dark/assets/imgs/works/projects/posters/compass-singapore/eurestNcompass/11.jpg",
+      "/dark/assets/imgs/works/projects/posters/compass-singapore/eurestNcompass/12.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/presentation/adnh/jumeirah/Thumnail.jpg",
+    title: "ADNH",
+    subTitle: "Presentation",
+    link: "/dark/Projects/presentation/adnh/jumeirah",
+    projectTitle: "Jumeirah",
+    images: []
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/presentation/compass-group/Thumnail.jpg",
+    title: "Compass Group",
+    subTitle: "Presentation",
+    link: "/dark/Projects/presentation/compass-group",
+    projectTitle: "Compass Group",
+    images: [
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/1.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/2.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/3.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/4.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/5.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/6.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/7.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/8.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/9.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/10.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/11.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/12.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/13.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/14.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/15.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/16.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/17.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/18.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/19.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/20.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/21.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/22.jpg",
+      "/dark/assets/imgs/works/projects/presentation/compass-group/slides/23.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/presentation/uaebrc/Thumbnail.jpg",
+    title: "UAEBRC",
+    subTitle: "Presentation",
+    link: "/dark/Projects/presentation/uaebrc",
+    projectTitle: "UAEBRC",
+    images: [
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/1.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/2.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/3.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/4.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/5.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/6.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/7.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/8.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/9.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/10.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/11.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/12.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/13.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/14.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/15.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/16.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/17.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/18.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/19.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/20.jpg",
+      "/dark/assets/imgs/works/projects/presentation/uaebrc/slides/21.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/print-ad/adnh/vehicle-design/Thumbnail.jpg",
+    title: "ADNH",
+    subTitle: "Print Ad",
+    link: "/dark/Projects/print-ad/adnh/vehicle-design",
+    projectTitle: "Vehicle Design",
+    images: [
+      "/dark/assets/imgs/works/projects/print-ad/adnh/vehicle-design/1.jpg",
+      "/dark/assets/imgs/works/projects/print-ad/adnh/vehicle-design/2.jpg",
+      "/dark/assets/imgs/works/projects/print-ad/adnh/vehicle-design/3.jpg",
+      "/dark/assets/imgs/works/projects/print-ad/adnh/vehicle-design/4.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/signage/adnh/reharvest/Thumbnail.jpg",
+    title: "ADNH",
+    subTitle: "Signage",
+    link: "/dark/Projects/signage/adnh/reharvest",
+    projectTitle: "Reharvest",
+    images: [
+      "/dark/assets/imgs/works/projects/signage/adnh/reharvest/1.jpg",
+      "/dark/assets/imgs/works/projects/signage/adnh/reharvest/2.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/signage/the-fountain/Thumbnail.jpg",
+    title: "The Fountain",
+    subTitle: "Signage",
+    link: "/dark/Projects/signage/the-fountain",
+    projectTitle: "The Fountain",
+    images: [
+      "/dark/assets/imgs/works/projects/signage/the-fountain/1.jpg",
+      "/dark/assets/imgs/works/projects/signage/the-fountain/2.jpg",
+      "/dark/assets/imgs/works/projects/signage/the-fountain/3.jpg",
+      "/dark/assets/imgs/works/projects/signage/the-fountain/4.jpg",
+      "/dark/assets/imgs/works/projects/signage/the-fountain/5.jpg",
+      "/dark/assets/imgs/works/projects/signage/the-fountain/6.jpg",
+      "/dark/assets/imgs/works/projects/signage/the-fountain/7.jpg",
+      "/dark/assets/imgs/works/projects/signage/the-fountain/8.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/signage/uaebrc/Thumbnail.jpg",
+    title: "UAEBRC",
+    subTitle: "Signage",
+    link: "/dark/Projects/signage/uaebrc",
+    projectTitle: "UAEBRC",
+    images: [
+      "/dark/assets/imgs/works/projects/signage/uaebrc/1.jpg"
+    ]
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/website-alrashed/alrashed-thumbnai.jpg",
+    title: "Alrashed",
+    subTitle: "Website",
+    link: "/dark/Projects/website/alrashed",
+    projectTitle: "Alrashed",
+    images: []
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/website-altrad/thumbnail.jpg",
+    title: "Altrad",
+    subTitle: "Website",
+    link: "/dark/Projects/website/altrad",
+    projectTitle: "Altrad",
+    images: []
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/website-manazel/thumbnail.jpg",
+    title: "Manazel",
+    subTitle: "Website",
+    link: "/dark/Projects/website/manazel",
+    projectTitle: "Manazel",
+    images: []
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/website-nclacademy/thumbnail.jpg",
+    title: "Nclacademy",
+    subTitle: "Website",
+    link: "/dark/Projects/website/nclacademy",
+    projectTitle: "Nclacademy",
+    images: []
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/website-petcure/thumbnail.jpg",
+    title: "Petcure",
+    subTitle: "Website",
+    link: "/dark/Projects/website/petcure",
+    projectTitle: "Petcure",
+    images: []
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/website-reharvestfestival/thumbnail.jpg",
+    title: "Reharvestfestival",
+    subTitle: "Website",
+    link: "/dark/Projects/website/reharvestfestival",
+    projectTitle: "Reharvestfestival",
+    images: []
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/website-vanguardvantage/thumbnail.jpg",
+    title: "Vanguardvantage",
+    subTitle: "Website",
+    link: "/dark/Projects/website/vanguardvantage",
+    projectTitle: "Vanguardvantage",
+    images: []
+  }
+];
+export {
+  data as d
+};
+//# sourceMappingURL=corproate-design-Ds2MCMAN.js.map

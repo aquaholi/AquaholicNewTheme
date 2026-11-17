@@ -5,23 +5,18 @@
         <div class="filtering col-12 mb-50">
       
           <div class="filter text-center">
-              <span class="text" ><b>Filter By :</b></span>
+            <span class="text"><b>Filter By :</b></span>
             <span data-filter="*" class="active"> Show All </span>
-            <span data-filter=".Brand-Collaterals">Collateral</span>
-            <span data-filter=".PresentationsPitchDecks">Presentations</span>
-            <span data-filter=".MarketingCampaigns">Campaigns</span>
-            <span data-filter=".PrintAds">Print Ads</span>
-            <span data-filter=".OOH">Signage</span>
-            <span data-filter=".EmailersNewsletters">Emailers</span>
-            <span data-filter=".EnvironmentalGraphics">Environmental Graphics</span>
-            <span data-filter=".EventsBranding">Events</span>
+            <span v-for="category in categories" :key="category" :data-filter="`.${categoryClass(category)}`">
+              {{ category }}
+            </span>
           </div>
           
         </div>
       </div>
       <div class="gallery row stand-marg">
         <div
-          v-for="(item, i) in data"
+          v-for="(item, i) in projects"
           :key="i"
           :class="['col-lg-4', 'col-md-6', 'items', categoryClass(item.subTitle)]"
         >
@@ -50,11 +45,14 @@
 </template>
 
  
-<script setup>
+<script setup lang="ts">
 import data from '@/data/portfolios/corproate-design.json';
+import type { PortfolioProject } from '@/data/portfolios/types';
 import initIsotope from '@/common/initIsotope';
 
-const categoryClass = (value) => value.replace(/[^a-zA-Z0-9_-]/g, '');
+const projects: PortfolioProject[] = data;
+const categoryClass = (value: string) => value.replace(/[^a-zA-Z0-9_-]/g, '');
+const categories = [...new Set(projects.map((item) => item.subTitle))].sort();
 
 onMounted(() => {
   initIsotope('gallery');

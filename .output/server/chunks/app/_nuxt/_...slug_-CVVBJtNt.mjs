@@ -1,0 +1,75 @@
+import { d as useRoute, c as createError } from '../server.mjs';
+import { u as useHead } from './_plugin-vue_export-helper-Bp6Oo5Q3.mjs';
+import { defineComponent, computed, unref, useSSRContext } from 'vue';
+import { ssrRenderComponent } from 'vue/server-renderer';
+import { d as data } from './corproate-design-Ds2MCMAN.mjs';
+import { F as Footer } from './Footer-DNpYDDj8.mjs';
+import { L as LoadingScreen, C as Cursor, P as ProgressScroll, a as Lines } from './loader-rPQn2KgB.mjs';
+import { N as Navbar } from './Navbar-DH_ohDax.mjs';
+import { _ as _sfc_main$1 } from './ProjectDetail-CsuyhLsb.mjs';
+import '../../nitro/node-server.mjs';
+import 'node:http';
+import 'node:https';
+import 'fs';
+import 'path';
+import 'node:fs';
+import 'node:url';
+import 'unhead';
+import '@unhead/shared';
+import 'vue-router';
+import './logo-ojOhGMds.mjs';
+import '../../handlers/renderer.mjs';
+import 'vue-bundle-renderer/runtime';
+import 'devalue';
+import '@unhead/ssr';
+
+const _sfc_main = /* @__PURE__ */ defineComponent({
+  __name: "[...slug]",
+  __ssrInlineRender: true,
+  setup(__props) {
+    const route = useRoute();
+    const projects = data;
+    const routePath = computed(() => `/dark/Projects/${(Array.isArray(route.params.slug) ? route.params.slug : [route.params.slug]).join("/")}`.toLowerCase());
+    const project = computed(() => {
+      const foundProject = projects.find((item) => item.link.toLowerCase() === routePath.value);
+      if (!foundProject) {
+        throw createError({ statusCode: 404, statusMessage: "Project not found" });
+      }
+      return foundProject;
+    });
+    useHead({
+      link: [
+        { rel: "stylesheet", href: "/dark/assets/css/plugins.css" },
+        { rel: "stylesheet", href: "/dark/assets/css/satoshi.css" },
+        { rel: "stylesheet", href: "/dark/assets/css/style.css" }
+      ]
+    });
+    return (_ctx, _push, _parent, _attrs) => {
+      _push(`<!--[-->`);
+      _push(ssrRenderComponent(unref(LoadingScreen), null, null, _parent));
+      _push(ssrRenderComponent(unref(Cursor), null, null, _parent));
+      _push(ssrRenderComponent(unref(ProgressScroll), null, null, _parent));
+      _push(ssrRenderComponent(unref(Lines), null, null, _parent));
+      _push(`<div id="smooth-wrapper">`);
+      _push(ssrRenderComponent(Navbar, null, null, _parent));
+      _push(`<div id="smooth-content"><main class="main-bg">`);
+      _push(ssrRenderComponent(_sfc_main$1, {
+        key: routePath.value,
+        project: project.value,
+        projects: unref(projects)
+      }, null, _parent));
+      _push(`</main>`);
+      _push(ssrRenderComponent(unref(Footer), null, null, _parent));
+      _push(`</div></div><!--]-->`);
+    };
+  }
+});
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/dark/Projects/[...slug].vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+
+export { _sfc_main as default };
+//# sourceMappingURL=_...slug_-CVVBJtNt.mjs.map

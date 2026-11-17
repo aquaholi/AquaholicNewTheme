@@ -7,29 +7,29 @@
     <Navbar />
     <div id="smooth-content">
       <main class="main-bg">
-        <Header />
-        <!-- <Challenge /> -->
-        <Wroks />
-        <!-- <Solution /> -->
-        <!-- <Next /> -->
+        <ProjectDetail :project="project" :projects="projects" />
       </main>
       <Footer />
     </div>
   </div>
 </template>
 
-<script setup>
-import Challenge from '@/components/dark/Projects/Branding/Guggenheim/Challenge';
+<script setup lang="ts">
+import portfolioProjects from '@/data/portfolios/corproate-design.json';
+import type { PortfolioProject } from '@/data/portfolios/types';
 import Footer from '@/components/dark/blog-details/Footer';
-import Header from '@/components/dark/Projects/Branding/Guggenheim/Header';
 import Lines from '@/components/dark/common/Lines';
-import Next from '@/components/dark/Projects/Branding/Guggenheim/Next';
-import Navbar from '@/components/dark/creative-agency/Navbar.vue';
 import ProgressScroll from '@/components/dark/common/ProgressScroll';
 import Cursor from '@/components/dark/common/cusor';
-import Solution from '@/components/dark/Projects/Branding/Guggenheim/Solution';
-import Wroks from '@/components/dark/Projects/Branding/Guggenheim/Wroks';
 import LoadingScreen from '@/components/dark/common/loader';
+import Navbar from '@/components/dark/creative-agency/Navbar.vue';
+import ProjectDetail from '@/components/dark/Projects/ProjectDetail.vue';
+
+const projects: PortfolioProject[] = portfolioProjects;
+const project = projects.find((item) => item.link === '/dark/Projects/Branding/Guggenheim');
+if (!project) {
+  throw createError({ statusCode: 404, statusMessage: 'Project not found' });
+}
 
 useHead({
   link: [
