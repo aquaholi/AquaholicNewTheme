@@ -13,8 +13,8 @@
         <Services />
         <Services2 />
         <Marquee />
-        <Portfolio />
-        <Testimonials />
+        <!-- <Portfolio /> -->
+        <!-- <Testimonials /> -->
         <!-- <Team /> -->
         <!-- <Blog /> -->
         <Clients />

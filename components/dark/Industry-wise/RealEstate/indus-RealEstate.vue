@@ -5,16 +5,14 @@
         <div v-for="(item, i) in data" :key="i" class="col-lg-4 col-md-6 items">
           <div class="item">
             <div class="img">
-              <img :src="item.img" alt="" />
+              <img :src="item.img" :alt="`${item.title} ${item.subTitle}`" />
             </div>
             <div class="cont mt-20">
               <h5 class="fz-22">
                 <a :href="item.link">{{ item.title }}</a>
               </h5>
               <p>
-                <a href="/dark/portfolio-outline">
-                  {{ item.subTitle.split(' ')[0] }}
-                </a>
+                <a :href="item.link">{{ item.subTitle }}</a>
               </p>
             </div>
           </div>
@@ -24,5 +22,7 @@
   </section>
 </template>
 <script setup>
-import data from '@/data/portfolios/workstand';
+import { getIndustryProjects } from '@/data/portfolios/industry-projects';
+
+const data = getIndustryProjects('real-estate');
 </script>

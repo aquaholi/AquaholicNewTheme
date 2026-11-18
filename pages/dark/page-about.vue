@@ -11,7 +11,7 @@
         <Intro />
         <Marquee />
         <Intro2 />
-        <Testimonials />
+        <!-- <Testimonials /> -->
         <Team />
         <Clients />
         <!-- <Blog /> -->

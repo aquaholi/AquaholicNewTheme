@@ -63,16 +63,16 @@
             <h6 class="sub-title mb-30">Support</h6>
             <ul class="rest fz-14">
               <li class="mb-15">
-                <a href="/dark/page-FAQS">FAQS</a>
+                <a href="#">FAQS</a>
               </li>
               <li class="mb-15">
-                <a href="/dark/page-about">Term & Conditions</a>
+                <a href="#">Term & Conditions</a>
               </li>
               <li class="mb-15">
-                <a href="/dark/page-about">Privacy policy</a>
+                <a href="#">Privacy policy</a>
               </li>
               <li>
-                <a href="/dark/page-about">Help</a>
+                <a href="#">Help</a>
               </li>
             </ul>
           </div>

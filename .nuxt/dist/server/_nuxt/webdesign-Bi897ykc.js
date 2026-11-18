@@ -1,0 +1,48 @@
+const data = [
+  {
+    img: "/dark/assets/imgs/works/projects/website-alrashed/alrashed-thumbnai.jpg",
+    title: "Al Rashed Group",
+    subTitle: "Corporate Website Development",
+    link: "https://alrashed.com.sa/"
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/website-manazel/thumbnail.jpg",
+    title: "Manazel Group",
+    subTitle: "Corporate Website Development",
+    link: "https://manazelgroup.com/"
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/website-altrad/thumbnail.jpg",
+    title: "Altrad Adyard",
+    subTitle: "Corporate Digital Solution & Lead Management",
+    link: "https://aqcreative.ae/altrad_form"
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/website-nclacademy/thumbnail.jpg",
+    title: "NCL World",
+    subTitle: "Website Design & Development",
+    link: "https://nclworld.academy/"
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/website-vanguardvantage/thumbnail.jpg",
+    title: "Vanguard Vantage",
+    subTitle: "Corporate Website Development",
+    link: "https://vanguardvantage.net/"
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/website-reharvestfestival/thumbnail.jpg",
+    title: "ReHarvest Festival 2026",
+    subTitle: "Interactive Digital Campaign Platform",
+    link: "https://aqcreative.ae/Reharvest/"
+  },
+  {
+    img: "/dark/assets/imgs/works/projects/website-petcure/thumbnail.jpg",
+    title: "Petcure",
+    subTitle: "Corporate Website Design & Development",
+    link: "https://petcure.ae/"
+  }
+];
+export {
+  data as d
+};
+//# sourceMappingURL=webdesign-Bi897ykc.js.map

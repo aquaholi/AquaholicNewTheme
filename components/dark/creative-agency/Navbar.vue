@@ -38,9 +38,9 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/dark/ser-corporate-design">Corporate Design</a>
               <a class="dropdown-item" href="/dark/ser-branding">Branding</a>
-              <a class="dropdown-item" href="/dark/ser-content-creation">Content Creation</a>
-              <a class="dropdown-item" href="/dark/ser-product-packaging">Product Packaging</a>
-              <a class="dropdown-item" href="/dark/ser-annual-reports">Annual Reports</a>
+              <!-- <a class="dropdown-item" href="/dark/ser-content-creation">Content Creation</a> -->
+              <!-- <a class="dropdown-item" href="/dark/ser-product-packaging">Product Packaging</a> -->
+              <!-- <a class="dropdown-item" href="/dark/ser-annual-reports">Annual Reports</a> -->
               <a class="dropdown-item" href="/dark/ser-social-media">Social Media</a>
               <a class="dropdown-item" href="/dark/ser-web-design">Web Design</a>
             </div>
@@ -53,7 +53,6 @@
             <a
               class="nav-link dropdown-toggle"
               data-toggle="dropdown"
-              href="/dark/industries/main-industries"
               role="button"
               aria-haspopup="true"
               aria-expanded="false"
@@ -68,21 +67,21 @@
               <a class="dropdown-item" href="/dark/industries/indus-RealEstate-page">Real Estate</a>
               <a class="dropdown-item" href="/dark/industries/indus-TravelNLeisureNDestination-page">Travel, Leisure & Destination</a>
               <a class="dropdown-item" href="/dark/industries/indus-IndustrialNEngineering-page">Industrial & Engineering</a>
-              <a class="dropdown-item" href="/dark/industries/indus-HealthNFitness-page">Health & Fitness</a>
+              <!-- <a class="dropdown-item" href="/dark/industries/indus-HealthNFitness-page">Health & Fitness</a> -->
               <a class="dropdown-item" href="/dark/industries/indus-ConglomeratesNHoldingGroups-page">Conglomerates & Holding Groups</a>
             </div>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#0">
               <span class="rolling-text">Retainers</span>
             </a>
-          </li>
+          </li> -->
          
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#0">
               <span class="rolling-text">Portfolio</span>
             </a>
-          </li>
+          </li> -->
 
            <li class="nav-item">
             <a class="nav-link" href="/dark/page-contact">
@@ -132,14 +131,14 @@
             <ul class="main-menu rest">
               <li>
                 <div class="o-hidden">
-                  <a href="#0" class="link">
+                  <a href="/" class="link">
                     <span class="fill-text" data-text="Home"> Home </span>
                   </a>
                 </div>
               </li>
               <li>
                 <div class="o-hidden">
-                  <a href="/pages/dark/page-about" class="link">
+                  <a href="/dark/page-about" class="link">
                     <span class="fill-text" data-text="About"> About </span>
                   </a>
                 </div>
@@ -160,20 +159,20 @@
                 <div class="sub-menu">
                   <ul>
                     <li>
-                      <a href="#0" class="sub-link">Corporate Design</a>
+                      <a href="/dark/ser-corporate-design" class="sub-link">Corporate Design</a>
                     </li>
                     <li>
                       <a href="/dark/ser-branding" class="sub-link">Branding</a>
                     </li>
-                    <li>
+                    <!-- <li>
                       <a href="/dark/ser-content-creation"" class="sub-link">Content Creation</a>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                       <a href="/dark/ser-product-packaging" class="sub-link">Product Packaging</a>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                       <a href="/dark/ser-annual-reports" class="sub-link">Annual Reports</a>
-                    </li>
+                    </li> -->
                     <li>
                       <a href="/dark/ser-social-media" class="sub-link">Social Media</a>
                     </li>
@@ -220,31 +219,31 @@
                     <li>
                       <a href="/dark/industries/indus-IndustrialNEngineering-page" class="sub-link">Industrial & Engineering</a>
                     </li>
-                    <li>
+                    <!-- <li>
                       <a href="/dark/industries/indus-HealthNFitness-page" class="sub-link">Health & Fitness</a>
-                    </li>
+                    </li> -->
                     <li>
                       <a href="/dark/industries/indus-ConglomeratesNHoldingGroups-page" class="sub-link">Conglomerates & Holding Groups</a>
                     </li>
                   </ul>
                 </div>
               </li>
-              <li>
+              <!-- <li>
                 <div class="o-hidden">
                   <a href="#0" class="link">
                     <span class="fill-text" data-text="Retainers"> Retainers </span>
                   </a>
                 </div>
-              </li>
+              </li> -->
 
           
-              <li>
+              <!-- <li>
                 <div class="o-hidden">
                   <a href="#0" class="link">
                     <span class="fill-text" data-text="Portfolio"> Portfolio </span>
                   </a>
                 </div>
-              </li>
+              </li> -->
     <li>
                 <div class="o-hidden">
                   <a href="/dark/page-contact" class="link">
@@ -268,22 +267,32 @@
               <h6 class="sub-title mb-15 opacity-7">Social Media</h6>
               <ul class="rest social-text">
                 <li class="mb-10">
-                  <a href="#0" class="hover-this">
+                  <a
+                    href="https://www.facebook.com/aqcreativesol/"
+                    class="hover-this"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <span class="hover-anim">Facebook</span>
                   </a>
                 </li>
                 <li class="mb-10">
-                  <a href="#0" class="hover-this">
-                    <span class="hover-anim">Twitter</span>
-                  </a>
-                </li>
-                <li class="mb-10">
-                  <a href="#0" class="hover-this">
+                  <a
+                    href="https://www.linkedin.com/company/aquaholic-creative-solutions/posts/?feedView=all"
+                    class="hover-this"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <span class="hover-anim">LinkedIn</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#0" class="hover-this">
+                  <a
+                    href="https://www.instagram.com/aqcreativesol/?hl=en"
+                    class="hover-this"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <span class="hover-anim">Instagram</span>
                   </a>
                 </li>
@@ -292,7 +301,7 @@
             <div class="item mb-40">
               <h6 class="sub-title mb-15 opacity-7">Contact Us</h6>
               <h5>
-                <a href="#0">hello@aqcreative.ae</a>
+                <a href="mailto:hello@aqcreative.ae">hello@aqcreative.ae</a>
               </h5>
               <h5 class="underline mt-10">
                 <a href="tel:+971505705820">+971 50 570 5820</a>

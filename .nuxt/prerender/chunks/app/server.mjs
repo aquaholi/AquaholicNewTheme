@@ -546,7 +546,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/blog-classic-BhXUhNqM.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/blog-classic-D8Ej8P3G.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-blog-details",
@@ -554,7 +554,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/blog-details-eihlUaX2.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/blog-details-CdmlaO7-.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-blog-list",
@@ -562,7 +562,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/blog-list-Ch-g14SJ.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/blog-list-C0gDmsdH.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-blog-list2",
@@ -570,7 +570,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/blog-list2-BI_iIoWG.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/blog-list2-C18gNKRt.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-home-asymmetric-portfolio",
@@ -586,7 +586,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/home-creative-agency-B93WeDQV.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/home-creative-agency-m-KFS8kw.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-home-creative-portfolio",
@@ -602,7 +602,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/home-digital-agency-DUp82h8h.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/home-digital-agency-CayCLIJn.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-home-freelancer",
@@ -618,7 +618,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/home-main-C97QUUPm.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/home-main-BItR1BtO.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-home-minimal-portfolio",
@@ -626,7 +626,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/home-minimal-portfolio-C04zrA7Y.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/home-minimal-portfolio-CuNuudui.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-home-modern-agency",
@@ -634,7 +634,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/home-modern-agency-C-NZSWBt.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/home-modern-agency-DH_ZcH95.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-home-personal-vcard",
@@ -658,7 +658,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/indus-agriculturalNfnb-page-D9HQnU1u.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/indus-agriculturalNfnb-page-0pVGrbeG.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-industries-indus-BanksNFinancialInstitute-page",
@@ -666,7 +666,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/indus-BanksNFinancialInstitute-page-yxNow_OX.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/indus-BanksNFinancialInstitute-page-DBgowTu1.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-industries-indus-ConglomeratesNHoldingGroups-page",
@@ -674,7 +674,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/indus-ConglomeratesNHoldingGroups-page-X_4F-YmF.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/indus-ConglomeratesNHoldingGroups-page-D1GVmUTA.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-industries-indus-Healthcare-page",
@@ -682,7 +682,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/indus-Healthcare-page-BNBa1GJ-.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/indus-Healthcare-page-Bowj7jng.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-industries-indus-HealthNFitness-page",
@@ -690,7 +690,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/indus-HealthNFitness-page-KZev1YKR.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/indus-HealthNFitness-page-Dkj1eP9i.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-industries-indus-HospitalityNFnB-page",
@@ -698,7 +698,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/indus-HospitalityNFnB-page-hmEf72_k.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/indus-HospitalityNFnB-page-COFENsep.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-industries-indus-IndustrialNEngineering-page",
@@ -706,7 +706,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/indus-IndustrialNEngineering-page-ONvXPROD.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/indus-IndustrialNEngineering-page-GYUcjqoP.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-industries-indus-RealEstate-page",
@@ -714,7 +714,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/indus-RealEstate-page-Bq432zEt.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/indus-RealEstate-page-CnlEinXB.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-industries-indus-TravelNLeisureNDestination-page",
@@ -722,7 +722,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/indus-TravelNLeisureNDestination-page-Cg7RqPN2.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/indus-TravelNLeisureNDestination-page-Dc6BdGnm.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-industries-main-industries",
@@ -730,7 +730,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/main-industries-CJ_tvdIy.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/main-industries-Be1Gr7Lz.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-page-about",
@@ -738,7 +738,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/page-about-CcbVbTsz.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-about-DaY58fj2.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-page-about2",
@@ -746,7 +746,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/page-about2-UIwAsJDn.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-about2-BDjcNkXd.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-page-about3",
@@ -754,7 +754,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/page-about3-CkQiCGrg.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-about3-CipmCcOl.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-page-contact",
@@ -762,7 +762,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/page-contact-xhAEs8vg.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-contact-BkOUCgql.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-page-contact2",
@@ -770,7 +770,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/page-contact2-DK2Bc5ga.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-contact2-265ts5oG.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-page-contact3",
@@ -778,7 +778,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/page-contact3-B_rWdOat.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-contact3-NyhCQKB2.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-page-error404",
@@ -786,7 +786,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/page-error404-CtBaGNRj.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-error404-EGDj_n4T.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-page-FAQS",
@@ -794,7 +794,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/page-FAQS-CB5GIsbT.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-FAQS-DCWBGYzK.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-page-services-details",
@@ -802,7 +802,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/page-services-details-DI0y8B22.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-services-details-CcjdQZLy.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-page-services",
@@ -810,7 +810,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/page-services-B73opLLr.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-services-C8FU9Sz2.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-page-services2",
@@ -818,7 +818,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/page-services2-BedPs-9t.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-services2-Dkoy4V0S.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-page-team-single",
@@ -826,7 +826,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/page-team-single-B_Ei-HkZ.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-team-single-BmYrZkX1.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-page-team",
@@ -834,7 +834,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/page-team-E1ViIxpy.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-team-vjznSGRC.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-portfolio-caption-cursor",
@@ -954,7 +954,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/_...slug_-1FWIR8ai.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_...slug_-D004M0nC.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-Projects-Branding-Guggenheim",
@@ -962,7 +962,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/Guggenheim-BG1ytUCo.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/Guggenheim-CaVMWb0D.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-ser-annual-reports",
@@ -970,7 +970,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/ser-annual-reports-CLUVE0ee.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/ser-annual-reports-BS_m9ZYZ.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-ser-branding",
@@ -978,7 +978,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/ser-branding-Cz_690uW.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/ser-branding-Dvd9ExIV.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-ser-content-creation",
@@ -986,7 +986,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/ser-content-creation-CcJI7Pso.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/ser-content-creation-C_Fu-Mrw.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-ser-corporate-design",
@@ -994,7 +994,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/ser-corporate-design-h1G7-SBg.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/ser-corporate-design-BnGrseeU.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-ser-product-packaging",
@@ -1002,7 +1002,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/ser-product-packaging-crkPp7hf.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/ser-product-packaging-C2YIuQTs.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-ser-social-media",
@@ -1010,7 +1010,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/ser-social-media-Xodp4hYF.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/ser-social-media-CMwWfNHj.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-ser-web-design",
@@ -1018,7 +1018,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/ser-web-design-0EaeJccH.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/ser-web-design-BXkv_taM.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-showcase-carousel",
@@ -1074,7 +1074,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/fahiz-DAF_7PHx.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/fahiz-BGFNCTT2.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-team-mariam",
@@ -1082,7 +1082,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/mariam-6xmKxXaO.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/mariam-CgjP-8C-.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-team-shahroz",
@@ -1090,7 +1090,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/shahroz-Csesnfwo.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/shahroz-DhuslNDu.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-team-shalaka",
@@ -1098,7 +1098,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/shalaka-DeK3DLf1.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/shalaka-CIF4d9LF.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-team-syed",
@@ -1106,7 +1106,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/syed-DntE96DU.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/syed-BuoTEALs.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
@@ -1114,7 +1114,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/index-C1LgII5S.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-5_WnDS1O.mjs').then((m) => m.default || m)
   },
   {
     name: "light-blog-classic",
@@ -1993,7 +1993,7 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import('./_nuxt/error-404-CqaYhhc6.mjs').then((r) => r.default || r));
+    const _Error404 = defineAsyncComponent(() => import('./_nuxt/error-404-C9w8gBlg.mjs').then((r) => r.default || r));
     const _Error = defineAsyncComponent(() => import('./_nuxt/error-500-C9B0FO9a.mjs').then((r) => r.default || r));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {

@@ -18,12 +18,10 @@
           <div class="item md-mb50">
             <div class="img">
               <img :src="item.img" alt="" />
-             <NuxtLink :to="item.detailLink">
               <div class="info">
                 <span class="fz-12">{{ item.subName }}</span>
                 <h6 class="fz-18">{{ item.name }}</h6>
               </div>
-             </NuxtLink>
             </div>
             <div class="social">
               <div class="links">
