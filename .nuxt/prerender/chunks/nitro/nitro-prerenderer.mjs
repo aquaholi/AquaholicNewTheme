@@ -20,7 +20,7 @@ import { dirname, resolve } from 'file://C:/xampp/htdocs/AQSite/node_modules/pat
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "c5db7440-3cba-4f0c-ba60-428452984c93"
+    "buildId": "30ce228b-c55d-41b4-8551-21d51e27782a"
   }
 };
 

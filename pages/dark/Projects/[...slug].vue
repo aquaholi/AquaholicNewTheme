@@ -7,7 +7,12 @@
     <Navbar />
     <div id="smooth-content">
       <main class="main-bg">
-        <ProjectDetail :key="routePath" :project="project" :projects="projects" />
+        <ProjectDetail
+          :key="routePath"
+          :project="project"
+          :projects="relatedProjects"
+          :all-projects-link="allProjectsLink"
+        />
       </main>
       <Footer />
     </div>
@@ -15,8 +20,10 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted } from 'vue';
+import { computed, onBeforeMount } from 'vue';
 import portfolioProjects from '@/data/portfolios/corproate-design.json';
+import socialMediaProjectData from '@/data/portfolios/social-media.json';
+import brandingProjectData from '@/data/portfolios/branding.json';
 import type { PortfolioProject } from '@/data/portfolios/types';
 import Footer from '@/components/dark/blog-details/Footer';
 import Lines from '@/components/dark/common/Lines';
@@ -27,7 +34,10 @@ import Navbar from '@/components/dark/creative-agency/Navbar.vue';
 import ProjectDetail from '@/components/dark/Projects/ProjectDetail.vue';
 
 const route = useRoute();
-const projects: PortfolioProject[] = portfolioProjects;
+const corporateProjects: PortfolioProject[] = portfolioProjects;
+const socialMediaProjects: PortfolioProject[] = socialMediaProjectData;
+const brandingProjects: PortfolioProject[] = brandingProjectData;
+const projects = [...corporateProjects, ...socialMediaProjects, ...brandingProjects];
 const routePath = computed(() => `/dark/Projects/${(Array.isArray(route.params.slug) ? route.params.slug : [route.params.slug]).join('/')}`.toLowerCase());
 const project = computed(() => {
   const foundProject = projects.find((item) => item.link.toLowerCase() === routePath.value);
@@ -35,6 +45,22 @@ const project = computed(() => {
     throw createError({ statusCode: 404, statusMessage: 'Project not found' });
   }
   return foundProject;
+});
+const isSocialMediaProject = computed(() =>
+  socialMediaProjects.some((item) => item.link.toLowerCase() === routePath.value),
+);
+const isBrandingProject = computed(() =>
+  brandingProjects.some((item) => item.link.toLowerCase() === routePath.value),
+);
+const relatedProjects = computed(() => {
+  if (isSocialMediaProject.value) return socialMediaProjects;
+  if (isBrandingProject.value) return brandingProjects;
+  return corporateProjects;
+});
+const allProjectsLink = computed(() => {
+  if (isSocialMediaProject.value) return '/dark/ser-social-media';
+  if (isBrandingProject.value) return '/dark/ser-branding';
+  return '/dark/ser-corporate-design';
 });
 
 useHead({
@@ -45,12 +71,7 @@ useHead({
   ],
 });
 
-onMounted(() => {
-  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-  ScrollTrigger.normalizeScroll(true);
-  ScrollSmoother.create({
-    smooth: 2,
-    effects: true,
-  });
+onBeforeMount(() => {
+  ScrollSmoother.get()?.kill();
 });
 </script>

@@ -1,5 +1,7 @@
 import { fileURLToPath } from 'node:url';
 import portfolioProjects from './data/portfolios/corproate-design.json';
+import socialMediaProjects from './data/portfolios/social-media.json';
+import brandingProjects from './data/portfolios/branding.json';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
@@ -12,8 +14,12 @@ export default defineNuxtConfig({
       failOnError: false,
       routes: [
         '/dark/ser-corporate-design',
+        '/dark/ser-social-media',
+        '/dark/ser-branding',
         '/dark/Projects/Branding/Guggenheim',
         ...portfolioProjects.map((project) => project.link),
+        ...socialMediaProjects.map((project) => project.link),
+        ...brandingProjects.map((project) => project.link),
       ],
     },
   },

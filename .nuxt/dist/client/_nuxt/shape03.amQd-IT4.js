@@ -1,1 +1,0 @@
-import"./entry.DY9JziGa.js";const i=""+globalThis.__publicAssetsURL("light/assets/imgs/icon-img/shape1.png"),t=""+globalThis.__publicAssetsURL("light/assets/imgs/icon-img/shape03.png");export{i as _,t as a};

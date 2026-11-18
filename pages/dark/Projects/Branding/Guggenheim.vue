@@ -15,6 +15,7 @@
 </template>
 
 <script setup lang="ts">
+import { onBeforeMount } from 'vue';
 import portfolioProjects from '@/data/portfolios/corproate-design.json';
 import type { PortfolioProject } from '@/data/portfolios/types';
 import Footer from '@/components/dark/blog-details/Footer';
@@ -39,12 +40,7 @@ useHead({
   ],
 });
 
-onMounted(() => {
-  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-  ScrollTrigger.normalizeScroll(true);
-  ScrollSmoother.create({
-    smooth: 2,
-    effects: true,
-  });
+onBeforeMount(() => {
+  ScrollSmoother.get()?.kill();
 });
 </script>

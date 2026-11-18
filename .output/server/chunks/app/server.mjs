@@ -669,7 +669,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/home-creative-agency-CHYCxMgO.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/home-creative-agency-B93WeDQV.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-home-creative-portfolio",
@@ -677,7 +677,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/home-creative-portfolio-DwJtE70B.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/home-creative-portfolio-TLTiG9S4.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-home-digital-agency",
@@ -685,7 +685,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/home-digital-agency-puVGFpJb.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/home-digital-agency-DUp82h8h.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-home-freelancer",
@@ -693,7 +693,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/home-freelancer-Dhdtqzub.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/home-freelancer-C9o4fqn3.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-home-main",
@@ -701,7 +701,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/home-main-Cx5-8YDq.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/home-main-C97QUUPm.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-home-minimal-portfolio",
@@ -717,7 +717,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/home-modern-agency-L98CtbuQ.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/home-modern-agency-C-NZSWBt.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-home-personal-vcard",
@@ -725,7 +725,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/home-personal-vcard-Cndl7MC7.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/home-personal-vcard-BsDA5NJf.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-home-startup-onepage",
@@ -885,7 +885,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/page-services-details-DDXn0QD5.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-services-details-DI0y8B22.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-page-services",
@@ -893,7 +893,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/page-services-qa4bgDKN.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-services-B73opLLr.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-page-services2",
@@ -981,7 +981,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/portfolio-sticky-C0aWJ_2C.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/portfolio-sticky-uzawh-yI.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-project1",
@@ -1037,7 +1037,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/_...slug_-CVVBJtNt.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_...slug_-1FWIR8ai.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-Projects-Branding-Guggenheim",
@@ -1045,7 +1045,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/Guggenheim-DpaBf3q8.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/Guggenheim-BG1ytUCo.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-ser-annual-reports",
@@ -1061,7 +1061,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/ser-branding-D42Yi8Qv.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/ser-branding-Cz_690uW.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-ser-content-creation",
@@ -1093,7 +1093,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/ser-social-media-Bqq-GUwi.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/ser-social-media-Xodp4hYF.mjs').then((m) => m.default || m)
   },
   {
     name: "dark-ser-web-design",
@@ -1197,7 +1197,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/index-0pQRzgfV.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-C1LgII5S.mjs').then((m) => m.default || m)
   },
   {
     name: "light-blog-classic",

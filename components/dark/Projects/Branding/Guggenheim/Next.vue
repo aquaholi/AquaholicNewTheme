@@ -45,7 +45,7 @@
       </div>
     </div>
     <div>
-      <a href="/dark/ser-corporate-design" class="all-works-butn text-center">
+      <a :href="allProjectsLink" class="all-works-butn text-center">
         <span class="ti-view-grid fz-24 mb-10"></span>
         <span class="d-block fz-12 text-u ls1">all Projects</span>
       </a>
@@ -57,10 +57,13 @@
 import { computed } from 'vue';
 import type { PortfolioProject } from '@/data/portfolios/types';
 
-const props = defineProps<{
+const props = withDefaults(defineProps<{
   project: PortfolioProject;
   projects: PortfolioProject[];
-}>();
+  allProjectsLink?: string;
+}>(), {
+  allProjectsLink: '/dark/ser-corporate-design',
+});
 
 const currentIndex = computed(() =>
   Math.max(props.projects.findIndex((item) => item.link === props.project.link), 0),

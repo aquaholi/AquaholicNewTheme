@@ -42,7 +42,7 @@ const initializeGallery = () => {
     scrollTrigger: {
       trigger: galleryViewport,
       pin: true,
-      scrub: 1,
+      scrub: true,
       anticipatePin: 1,
       invalidateOnRefresh: true,
       end: () => `+=${Math.max(0, galleryTrack.scrollWidth - galleryViewport.clientWidth)}`,
@@ -91,10 +91,10 @@ onUnmounted(() => {
 
 .project-gallery-track > .project-gallery-panel {
   display: flex;
-  flex: 0 0 100vw;
+  flex: 0 0 auto;
   align-items: center;
-  justify-content: center;
-  width: 100vw;
+  justify-content: flex-start;
+  width: auto;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -104,8 +104,10 @@ onUnmounted(() => {
 
 .project-gallery-image {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
+  max-width: 100vw;
+  max-height: 100vh;
   object-fit: contain;
   object-position: center;
 }
@@ -135,7 +137,8 @@ onUnmounted(() => {
   .project-gallery-image {
     width: 100%;
     height: auto;
-    max-height: 80vh;
+    max-width: none;
+    max-height: none;
     object-fit: contain;
   }
 }
